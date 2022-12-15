@@ -92,10 +92,10 @@ li {
   margin-bottom: 7rem;
 }
 
-/* 100% width */
-/* .location img {
 
-} */
+.location img {
+    width: 100%;
+}
 
 footer {
   background-color: OrangeRed;
@@ -108,4 +108,28 @@ footer .container {
   justify-content: space-between;
   padding: 5em 0;
   color: white;
+}
+
+@media only screen and (max-width: 960px) {
+    .main {
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .supporting img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    h1 {
+        font-size: 1rem;
+    }
+    .gallery img {
+        margin: 0;
+    } 
+    nav {
+        display: none;
+    }
 }
